@@ -7,8 +7,12 @@
     <input type="text" id="fname" name="fname" value="{{doc.name}}" /><br />
   </p>
   <p>
-    Name of the Restaurant:
+    Restaurant name:
     <textarea id="frestaurant" name="frestaurant">{{doc.restaurant}}</textarea>
+  </p>
+  <p>
+    Review:
+    <textarea id="freview" name="freview">{{doc.review}}</textarea>
   </p>
   <p>
     <a href="{{ url_for('read')}}">Cancel</a>
