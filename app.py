@@ -65,6 +65,8 @@ def create_post():
     """
     name = request.form['fname']
     message = request.form['fmessage']
+    review = request.form["freview"]
+
 
 
     # create a new document with the data the user entered
